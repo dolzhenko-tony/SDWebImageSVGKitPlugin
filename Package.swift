@@ -7,7 +7,7 @@ let package = Package(
     name: "SDWebImageSVGKitPlugin",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v11), .iOS(.v8), .tvOS(.v14), .watchOS(.v7)
+        .macOS(.v11), .iOS(.v9), .tvOS(.v14), .watchOS(.v7)
     ],
     products: [
         .library(
