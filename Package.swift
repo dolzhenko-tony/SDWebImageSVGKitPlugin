@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SDWebImage/SDWebImage.git", .upToNextMinor(from: "5.10.4")),
-        .package(url: "https://github.com/SVGKit/SVGKit.git", .upToNextMinor(from: "3.x"))
+      .package(url: "https://github.com/SVGKit/SVGKit.git", .branch("3.x"))
     ],
     targets: [
         .target(
