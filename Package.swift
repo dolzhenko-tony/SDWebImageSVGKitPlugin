@@ -15,8 +15,8 @@ let package = Package(
             targets: ["SDWebImageSVGKitPlugin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", .upToNextMinor(from: "5.9.0")),
-        .package(url: "https://github.com/izackp/SVGKit.git", .upToNextMinor(from: "3.0.0"))
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", .upToNextMinor(from: "5.10.4")),
+        .package(url: "https://github.com/SVGKit/SVGKit.git", .upToNextMinor(from: "3.x"))
     ],
     targets: [
         .target(
