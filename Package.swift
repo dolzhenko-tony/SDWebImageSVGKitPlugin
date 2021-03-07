@@ -23,6 +23,7 @@ let package = Package(
             name: "SDWebImageSVGKitPlugin",
             dependencies: ["SDWebImage", "SVGKit"],
             path: "Sources",
+            exclude: ["Module/Info.plist"],
             sources: ["Classes"],
             publicHeadersPath: "Classes"
         )
