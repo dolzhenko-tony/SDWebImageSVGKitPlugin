@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "SDWebImageSVGKitPlugin",
             dependencies: ["SDWebImage", "SVGKit"],
-            path: ".",
+            path: "SDWebImageSVGKitPlugin",
             sources: ["SDWebImageSVGKitPlugin/Classes"],
             publicHeadersPath: "SDWebImageSVGKitPlugin/Classes"
         )
